@@ -1,0 +1,59 @@
+{
+  "name": "tickleGame",
+  "version": "0.0.2",
+  "description": "myself javascript workflow",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooleners/tickleGame.git"
+  },
+  "author": "wooleners",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wooleners/tickleGame/issues"
+  },
+  "homepage": "https://github.com/wooleners/tickleGame",
+  "devDependencies": {
+    "http-server": "^0.6.1",
+    "del": "^0.1.3",
+    "event-stream": "3.1.7",
+    "require-dir": "^0.1.0",
+    "gulp": "^3.8.0",
+    "gulp-less": "^1.3.6",
+    "gulp-rev": "^2.0.0",
+    "gulp-minify-css": "0.3.4",
+    "gulp-uglify": "0.3.0",
+    "gulp-concat": "2.2.0",
+    "gulp-concat-css": "0.1.4",
+    "gulp-rename": "1.2.0",
+    "gulp-html-replace": "1.1.0",
+    "gulp-filenames": "^1.2.0",
+    "gulp-watch": "^1.1.0",
+    "browser-sync": "^2.5.2"
+  },
+  "scripts": {
+    
+  },
+  "dependencies": {
+    "browser-sync": "^2.6.4",
+    "del": "^0.1.3",
+    "event-stream": "^3.1.7",
+    "gulp-concat": "^2.2.0",
+    "gulp-concat-css": "^0.1.4",
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.0",
+    "gulp-html-replace": "^1.1.0",
+    "gulp-filenames": "^1.3.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-rev": "^2.0.1",
+    "gulp-watch": "^1.2.1",
+    "http-server": "^0.6.1",
+    "gulp-less": "^1.3.9",
+    "require-dir": "^0.1.0"
+  },
+  "keywords": [
+    "javascript",
+    "workflow"
+  ]
+}

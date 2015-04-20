@@ -1,1 +1,15 @@
-###Tickle Html5 Game
+##tickleGame
+========
+
+Installation
+--------------
+
+```bash
+$ npm install gulp
+$ gulp
+$ npm start
+```
+tips: only one port
+
+
+
