@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="/app/index.css" type="text/css">
 </head>
 <body>
-	<div class="basic_bg bg_img_1" id="page1">
+	<div class="basic_bg bg_img_1 show" id="page1">
 		<div class="role" id="rules"></div>
 		<div class="title">
 			<h1>2015人已领取流量</h1>
@@ -23,7 +23,25 @@
 			<p>5. 请留下您的真实手机号码, 以便中奖通知, 中奖资格确认; 如信息虚假, 错误,将取消获奖资格</p>
 		</div>
 	</div>
-	<div class="basic_bg bg_img_2" style="display: none" id="page2">
+	<div class="pop_window" id="sheep_select">
+		<div class="pop_warpper">
+			<div class="pop_inner_warpper">
+				<div class="meng_sheep"></div>
+				<div class="hua_sheep"></div>
+				<div class="li_sheep"></div>
+			</div>
+			<div class="pop_text">
+				<span class="pop_title">
+					选一只你心仪的小羊,为Ta挠挠痒吧!
+				</span>
+				<p class="pop_tips">
+					小羊会送你手机流量<br>
+					作为谢礼,人人有奖,试试手气吧!
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="basic_bg bg_img_2" id="page2">
 		<div class="dialog">喜欢看你挠痒的样子, 看一千遍也不厌倦~~</div>
 		<div class="raider">温柔轻挠小羊的任意部位, 要挠到小羊满意为止哦. 小羊会根据你的表现, 送你手机流量作为回报嗷!</div>
 	</div>
@@ -35,7 +53,7 @@
 			<div class="getFlow"></div>
 		</div>
 	</div>
-	<div class="basic_bg bg_img_3" style="display: none" id="page3">
+	<div class="basic_bg bg_img_3" id="page3">
 		<div class="notice">
 			<h1>咩! 手机号是领取<br/>流量的唯一凭证, 请正确填写.</h1>
 			<p>悄悄告诉你, 开通平安一账通账户<br>后, 你肯能有机会得到小羊加送的流量哦!</p>
@@ -72,7 +90,7 @@
 		</div>
 		<div class="register"></div>
 	</div>
-	<div class="basic_bg bg_img_4" style="display: none" id="page4">
+	<div class="basic_bg bg_img_4" id="page4">
 	<div class="success">
 		<h1>耶, 人品大爆发!<br/>小羊额外加送40M流量!</h1>
 		<p>你一共获得<span>50M</span>手机上网<br/>流量, 将于72小时内完成充值, <br/>请留意短信提醒</p>

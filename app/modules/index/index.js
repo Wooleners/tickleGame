@@ -40,7 +40,7 @@ domready(function() {
 					pop: "rules_window",
 					eventType: "click",
 					handler: function(pop_id) {
-						$("#" + pop_id).toggle();
+						$("#" + pop_id).toggleClass("show");
 					}
 				}
 			], pops = [
@@ -50,7 +50,7 @@ domready(function() {
 					chd: "desc",
 					eventType: "click",
 					handler: function(id, chd, event){
-						(!!event.target.id && event.target.id === id) ? $("#" + id).toggle() : false;
+						(!!event.target.id && event.target.id === id) ? $("#" + id).toggleClass("show") : false;
 					}
 				}
 			];

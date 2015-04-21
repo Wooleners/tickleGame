@@ -6,6 +6,9 @@ html, body{
 div{
 	-webkit-box-sizing: border-box;
 }
+.show{
+	display: block !important;
+}
 .basic_bg{
 	position: relative;
 	min-height: 480px;
@@ -14,6 +17,7 @@ div{
 	background-size: cover;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	display: none;
 }
 /*first page*/
 .role{
@@ -305,4 +309,83 @@ div{
 }
 .bg_img_4{
 	background-image: url(/app/images/fouthPageBg.png);
+}
+
+.pop_warpper{
+	position: relative;
+	width: 100%;
+	height: 380px;
+	margin: 0 auto;
+	background-image: url(/app/images/selectwarp.png);
+	margin-top: 35%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 3;
+}
+.pop_inner_warpper{
+	position: absolute;
+	display: -webkit-box;
+	width: 90%;
+	height: 200px;
+	left:5%;
+	top: 35px;
+	margin: 0 auto;
+	background-image: url(/app/images/inner_warp.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	z-index: 3;
+}
+.pop_text{
+	position: absolute;
+	top:235px;
+	height: 130px;
+	width: 90%;
+	left:5%;
+}
+.pop_text .pop_title{
+	display: inline-block;
+	color: #fff600;
+	font-size:20px;
+	margin-top:15px;
+	margin-left:5%;
+	line-height: 20px;
+	height: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.pop_text .pop_tips{
+	font-size: 18px;
+	line-height: 18px;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+}
+.pop_inner_warpper > div{
+	height: 100%;
+	-webkit-box-flex:1;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.pop_inner_warpper .meng_sheep{
+	background-position: 0px 45px;
+  	background-size: 85%;
+	background-image: url(/app/images/meng.png);
+}
+.pop_inner_warpper .meng_sheep:hover{
+	background-image: url(/app/images/meng_hover.png);
+}
+.pop_inner_warpper .hua_sheep{
+	background-position: 0px 15px;
+  	background-size: 85%;
+	background-image: url(/app/images/hua.png);
+}
+.pop_inner_warpper .hua_sheep:hover{
+	background-image: url(/app/images/hua_hover.png);
+}
+.pop_inner_warpper .li_sheep{
+	background-position: 0px 50px;
+	background-image: url(/app/images/li.png);
+}
+.pop_inner_warpper .li_sheep:hover{
+	background-image: url(/app/images/li_hover.png);
 }
