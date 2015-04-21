@@ -1,7 +1,10 @@
 var gulp = require('gulp'),
     config = require('../config'),
     less = require('gulp-less'),
-    handleError = require('../handleError');
+    handleError = require('../handleError'),
+    autoprefixer = require('gulp-autoprefixer'),
+    browserSync = require('browser-sync'),
+    reload = browserSync.reload;
 
 gulp.task('build:less',function () {
   var dest = config.isDeploy?'app/css/':'app/';
