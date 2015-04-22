@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
 	<title>挠羊痒</title>
 	<link rel="stylesheet" href="/app/index.css" type="text/css">
@@ -25,10 +26,10 @@
 	</div>
 	<div class="pop_window" id="sheep_select">
 		<div class="pop_warpper">
-			<div class="pop_inner_warpper">
-				<div class="meng_sheep"></div>
-				<div class="hua_sheep"></div>
-				<div class="li_sheep"></div>
+			<div class="pop_inner_warpper" id="sheeps">
+				<div class="meng_sheep" id="meng_sheep"></div>
+				<div class="hua_sheep" id="hua_sheep"></div>
+				<div class="li_sheep" id="li_sheep"></div>
 			</div>
 			<div class="pop_text">
 				<span class="pop_title">
@@ -44,13 +45,18 @@
 	<div class="basic_bg bg_img_2" id="page2">
 		<div class="dialog">喜欢看你挠痒的样子, 看一千遍也不厌倦~~</div>
 		<div class="raider">温柔轻挠小羊的任意部位, 要挠到小羊满意为止哦. 小羊会根据你的表现, 送你手机流量作为回报嗷!</div>
+		<div class="sheep_game" id="sheep_game">
+			<div class="sheep_attach_warp">
+				<div id="sheep_attach"></div>
+			</div>
+		</div>
 	</div>
-	<div class="pop_window">
+	<div class="pop_window" id="normal_res">
 		<div class="result">
 			<div>
 				<span>10M</span>免费手机上网流量送给你, 咩咩哒!
 			</div>
-			<div class="getFlow"></div>
+			<div class="getFlow" id="getFlow"></div>
 		</div>
 	</div>
 	<div class="basic_bg bg_img_3" id="page3">
@@ -102,6 +108,7 @@
 		<div class="share_text">点击右上角, 选择"分享到<br/>朋友圈"或"发送给朋友"</div>
 	</div>
 	<script type="text/javascript" src="/app/bower_components/zeptojs/src/zepto.js"></script>
+	<script type="text/javascript" src="/app/bower_components/hammer.js/hammer.min.js"></script>
 	<script type="text/javascript" src="/app/modules/lib/ready.js"></script>
 	<script type="text/javascript" src="/app/modules/index/index.js"></script>
 </body>

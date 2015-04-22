@@ -6,8 +6,9 @@
   "homepage": "",
   "license": "MIT",
   "dependencies": {
-  	"swiper": "~3.0.5",
+    "swiper": "~3.0.5",
     "handlebars": "~3.0.0",
-    "zeptojs": "~1.1.6"
+    "zeptojs": "~1.1.6",
+    "hammer.js": "~2.0.4"
   }
 }
