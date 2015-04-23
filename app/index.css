@@ -27,7 +27,7 @@ div {
   right: 0;
   width: 86px;
   height: 39px;
-  background-image: url(/app/images/roleBtn.png);
+  background-image: url(images/roleBtn.png);
   background-size: 100%;
 }
 .title {
@@ -38,7 +38,7 @@ div {
   padding-top: 154px;
   width: 306px;
   height: 185px;
-  background-image: url(/app/images/title.png);
+  background-image: url(images/title.png);
   background-size: 100%;
 }
 .title h1 {
@@ -55,7 +55,7 @@ div {
   margin-left: -90px;
   width: 179px;
   height: 73px;
-  background-image: url(/app/images/quickFlowBtn.png);
+  background-image: url(images/quickFlowBtn.png);
   background-size: 100%;
 }
 .desc {
@@ -66,7 +66,7 @@ div {
   margin-left: -160px;
   width: 320px;
   height: 478px;
-  background-image: url(/app/images/description.png);
+  background-image: url(images/description.png);
   background-size: 100%;
   color: #FFEA00;
   font-size: 14px;
@@ -81,7 +81,7 @@ div {
   margin-left: -103px;
   width: 205px;
   height: 105px;
-  background-image: url(/app/images/dialog.png);
+  background-image: url(images/dialog.png);
   background-size: 100%;
   color: #6A3604;
   font-size: 14px;
@@ -94,7 +94,7 @@ div {
   padding: 35px 15px 0 15px;
   width: 320px;
   height: 107px;
-  background-image: url(/app/images/raider.png);
+  background-image: url(images/raider.png);
   background-size: 100%;
   color: #FBE7A8;
   font-size: 13px;
@@ -108,7 +108,7 @@ div {
   margin: -244px 0 0 -160px;
   width: 320px;
   height: 488px;
-  background-image: url(/app/images/result.png);
+  background-image: url(images/result.png);
   background-size: 100%;
   color: #F8E8D9;
   font-size: 18px;
@@ -122,7 +122,7 @@ div {
   width: 181px;
   height: 74px;
   margin-top: 20px;
-  background-image: url(/app/images/getFlow.png);
+  background-image: url(images/getFlow.png);
   background-size: 100%;
 }
 /*third page*/
@@ -133,7 +133,7 @@ div {
   padding: 10px 20px 0 20px;
   width: 256px;
   height: 140px;
-  background-image: url(/app/images/notice.png);
+  background-image: url(images/notice.png);
   background-size: 100%;
   text-align: center;
 }
@@ -213,7 +213,7 @@ div {
   display: inline-block;
   width: 75px;
   height: 30px;
-  background-image: url(/app/images/send.png);
+  background-image: url(images/send.png);
   background-size: 100%;
   vertical-align: middle;
 }
@@ -228,7 +228,7 @@ div {
   width: 179px;
   height: 73px;
   margin: 5px auto 0;
-  background-image: url(/app/images/register.png);
+  background-image: url(images/register.png);
   background-size: 100%;
 }
 /*fouth page*/
@@ -240,7 +240,7 @@ div {
   margin-left: -151px;
   width: 302px;
   height: 515px;
-  background-image: url(/app/images/success.png);
+  background-image: url(images/success.png);
   background-size: 100%;
   text-align: center;
 }
@@ -265,7 +265,7 @@ div {
   width: 186px;
   height: 55px;
   margin: 10px auto 0;
-  background-image: url(/app/images/shareBtn.png);
+  background-image: url(images/shareBtn.png);
   background-size: 100%;
 }
 .guide {
@@ -275,7 +275,7 @@ div {
   width: 257px;
   height: 244px;
   margin-left: -129px;
-  background-image: url(/app/images/guide.png);
+  background-image: url(images/guide.png);
   background-size: 100%;
 }
 .share_text {
@@ -301,16 +301,16 @@ div {
 }
 /*all bg img*/
 .bg_img_1 {
-  background-image: url(/app/images/firstPageBg.png);
+  background-image: url(images/firstPageBg.png);
 }
 .bg_img_2 {
-  background-image: url(/app/images/game_bg.png);
+  background-image: url(images/game_bg.png);
 }
 .bg_img_3 {
-  background-image: url(/app/images/thirdPageBg.png);
+  background-image: url(images/thirdPageBg.png);
 }
 .bg_img_4 {
-  background-image: url(/app/images/fouthPageBg.png);
+  background-image: url(images/fouthPageBg.png);
 }
 .sheep_game {
   position: absolute;
@@ -319,7 +319,7 @@ div {
   height: 50%;
   width: 80%;
   background-repeat: no-repeat;
-  cursor: url(/app/images/meng_attach.png);
+  cursor: url(images/meng_attach.png);
 }
 .sheep_attach_warp {
   width: 100%;
@@ -335,33 +335,33 @@ div {
   background-repeat: no-repeat;
 }
 .sheep_game_meng {
-  background-image: url(/app/images/meng_game.png);
+  background-image: url(images/meng_game.png);
   background-size: 90%;
 }
 .sheep_attach_meng #sheep_attach {
-  background-image: url(/app/images/meng_attach.png);
+  background-image: url(images/meng_attach.png);
 }
 .sheep_game_hua {
-  background-image: url(/app/images/hua_game.png);
+  background-image: url(images/hua_game.png);
   background-size: 65%;
   background-position: 50px 0px;
 }
 .sheep_attach_hua #sheep_attach {
-  background-image: url(/app/images/hua_attach.png);
+  background-image: url(images/hua_attach.png);
 }
 .sheep_game_li {
-  background-image: url(/app/images/li_game.png);
+  background-image: url(images/li_game.png);
   background-size: 100%;
 }
 .sheep_attach_li #sheep_attach {
-  background-image: url(/app/images/li_attach.png);
+  background-image: url(images/li_attach.png);
 }
 .pop_warpper {
   position: relative;
   width: 100%;
   height: 380px;
   margin: 0 auto;
-  background-image: url(/app/images/selectwarp.png);
+  background-image: url(images/selectwarp.png);
   margin-top: 35%;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -375,7 +375,7 @@ div {
   left: 5%;
   top: 35px;
   margin: 0 auto;
-  background-image: url(/app/images/inner_warp.png);
+  background-image: url(images/inner_warp.png);
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 3;
@@ -414,25 +414,25 @@ div {
 .pop_inner_warpper .meng_sheep {
   background-position: 0px 45px;
   background-size: 85%;
-  background-image: url(/app/images/meng.png);
+  background-image: url(images/meng.png);
 }
 .pop_inner_warpper .meng_sheep:hover {
-  background-image: url(/app/images/meng_hover.png);
+  background-image: url(images/meng_hover.png);
 }
 .pop_inner_warpper .hua_sheep {
   background-position: 0px 15px;
   background-size: 85%;
-  background-image: url(/app/images/hua.png);
+  background-image: url(images/hua.png);
 }
 .pop_inner_warpper .hua_sheep:hover {
-  background-image: url(/app/images/hua_hover.png);
+  background-image: url(images/hua_hover.png);
 }
 .pop_inner_warpper .li_sheep {
   background-position: 0px 50px;
-  background-image: url(/app/images/li.png);
+  background-image: url(images/li.png);
 }
 .pop_inner_warpper .li_sheep:hover {
-  background-image: url(/app/images/li_hover.png);
+  background-image: url(images/li_hover.png);
 }
 .show div:not(#sheep_attach) {
   -webkit-animation: bounceInDown 0.5s .2s ease both;
